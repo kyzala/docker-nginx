@@ -3,7 +3,8 @@
 #
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
-FROM debian:bookworm-slim
+#FROM debian:bookworm-slim
+FROM registry.cn-hangzhou.aliyuncs.com/alastack/debian:bookworm-slim
 
 LABEL maintainer="NGINX Docker Maintainers <docker-maint@nginx.com>"
 
